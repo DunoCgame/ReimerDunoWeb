@@ -1,0 +1,130 @@
+  /**horizontal***/
+@media (min-width:0px) and (max-width: 767px){
+
+.body{
+    background-image:url("../images/Venezuela3.png"); 
+    background-position:center center; 
+    background-repeat:no-repeat; 
+    background-size: 100% 100%;
+
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr 50px;
+    min-height: 100vh;
+    grid-column-gap:0px;
+    grid-row-gap:0px;
+ background:red;
+}
+
+.header {
+    background: rgba(141,140,139,0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+}
+
+.slider {
+    width: 100%;
+    
+}
+
+/**quien soy***/
+.article-information{
+display: flex;
+flex-direction:column;
+padding: 5px;
+justify-content: center;
+align-items: center;
+
+}
+
+.image-article {
+    width: 100%;
+    height: 10vh;
+}
+
+.container-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0,0,5,0.0);
+}
+/**quien soy***/
+/**Social***/
+/**Social***/
+/**Donacion***/
+  .containner-donate {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: 70% 15% 15%;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          grid-template-areas: 'Qr'
+              'Banck'
+              'Price';
+          height: 94vh;
+          background: red;
+      }
+
+      .containner-qr {
+    background:rgba(0, 0, 0, 0.1);
+    grid-area: Qr;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-qr-code {
+  padding: 16px;
+  background: white;
+  border-radius: 28px;
+ width: 400px;
+}
+.containner-type-price {
+  background: rgba(37, 20, 43, 0.37);
+  grid-area: Price;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 20px; */
+}
+
+.item-type-priece {
+  background: #ffb000;
+  padding: 7px;
+  /* color: white; */
+  font-weight: bold;
+  font-size: 21px;
+  border-radius: 25px;
+  width: 44px;
+}
+
+.containner-back-soport {
+  background: rgba(181, 214, 44, 0.3);
+  grid-area: Banck;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  /* padding: 26px; */
+  /* margin: 20px; */
+}
+
+.item-type-banck {
+  margin: 8px;
+}
+
+      /**Donacion***/
+      .image-banck {
+    width: 63px;
+    border-radius: 40px;
+/**Donacion***/
+
+}

@@ -1,0 +1,148 @@
+/*--------------------------------------------------------------------------------*/
+@media(min-width:769px) and (max-width:1280px){
+  /* Estilos para tabletas */
+/* Estilos para pantallas de escritorio */
+.body{
+        background-image:url("../images/Venezuela3.png"); 
+        background-position:center center; 
+        background-repeat:no-repeat; 
+        background-size: 100% 100%;
+
+
+display: grid;
+grid-template-columns: 1fr;
+ grid-template-rows: 60px 1fr 50px;
+  min-height: 100vh;
+grid-column-gap:0px;
+grid-row-gap:0px;
+
+background: blue;
+
+}
+.header {
+    background: rgba(141,140,139,0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/**quien soy***/
+.article-information {
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+  justify-content: center;
+}
+.image-article {
+  width: 100%;
+  height: 60vh;
+}
+.container-text{
+  width: 100%;
+}
+/**quien soy***/
+/**Social***/
+.Gallery_photo{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+.Gallery_photo img {
+  width: 100%;
+  height: auto;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-areas: 'img1  img3'
+        'img2 img3';
+    height: 82vh;
+   /* background: purple;*/
+}
+.div1 {
+    grid-area: img1;
+    background: red;
+    height: 224px;
+}
+.div2 {
+    grid-area: img2;
+    background: yellow;
+    height: 221px;
+}
+.div3 {
+grid-area:img3;
+    background: blue;
+}
+
+/**Social***/
+/**Donacion***/
+  .containner-donate {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: 70% 15% 15%;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          grid-template-areas: 'Qr'
+              'Banck'
+              'Price';
+          height: 94vh;
+        
+      }
+
+         .containner-qr {
+    background:rgba(0, 0, 0, 0.1);
+    grid-area: Qr;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.image-qr-code {
+    padding: 16px;
+    background: white;
+    border-radius: 28px;
+    width: 400px;
+}
+.containner-type-price {
+    background: rgba(249, 170, 0, 0.37);
+    grid-area: Price;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.item-type-priece {
+  background: #ffb000;
+  padding: 7px;
+  /* color: white; */
+  font-weight: bold;
+  font-size: 21px;
+  border-radius: 25px;
+ 
+}
+.containner-back-soport {
+    background: rgba(181, 214, 44, 0.3);
+    grid-area: Banck;
+    display: flex;
+     flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+   
+
+}
+.item-type-banck {
+  margin: 8px;
+}
+
+      /**Donacion***/
+      .image-banck {
+    width: 70px;
+    border-radius: 40px;
+/**Donacion***/
+
+}
